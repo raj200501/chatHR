@@ -1,0 +1,24 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - farewell
+
+- intent: ask_policy
+  examples: |
+    - What is the leave policy?
+    - Tell me about the company's leave policy
+    - How many days of leave do we get?
+    - What is the sick leave policy?
+    - Can you explain the maternity leave policy?

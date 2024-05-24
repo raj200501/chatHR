@@ -1,0 +1,3 @@
+flask
+rasa
+PyPDF2

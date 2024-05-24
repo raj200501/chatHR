@@ -1,0 +1,15 @@
+intents:
+  - greet
+  - goodbye
+  - ask_policy
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you with our company policies today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+  utter_ask_policy:
+    - text: "Let me check the policy for you..."
+
+actions:
+  - action_search_policy
